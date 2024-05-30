@@ -1,0 +1,119 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #1b1915, #5267ac);
+    margin: 0;
+    padding: 20px;
+    color: #ffffff;
+}
+
+h1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background: rgba(156, 163, 165, 0.09);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(199, 160, 160, 0.1);
+    backdrop-filter: blur(3.6px);
+    -webkit-backdrop-filter: blur(3.6px);
+    border: 1px solid rgba(236, 236, 233, 0.34);
+    padding: 20px;
+    margin-bottom: 20px; 
+}
+
+.text-center {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.text-center input::placeholder {
+    color: white; 
+}
+
+
+.text-center input, .text-center button {
+    padding: 10px;
+    margin: 5px;
+    border-radius: 16px;
+    background: rgba(255, 255, 255, 0.5); 
+    backdrop-filter: blur(5px); 
+    -webkit-backdrop-filter: blur(5px); 
+    border: 1px solid rgba(255, 255, 255, 0.34);
+}
+
+.text-center button {
+    padding: 10px;
+    margin: 5px;
+    border-radius: 16px;
+    background-color: #007BFF; 
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+
+#lista-peliculas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background: rgba(152, 201, 216, 0.09);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(3.6px);
+    -webkit-backdrop-filter: blur(3.6px);
+    border: 1px solid rgba(116, 115, 107, 0.34);
+    padding: 20px;
+    margin-bottom: 20px; 
+}
+
+
+.pelicula {
+    background-image: url(img/fondopeli.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    border-radius: 16px;
+    border: 2px solid #5267ac;
+
+}
+
+.pelicula-imagen {
+    width: 100px;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.pelicula h3 {
+    margin: 0;
+    font-size: 1.5em;
+}
+
+.pelicula p {
+    margin: 10px auto; 
+    max-width: 240px; 
+    overflow-y: auto; 
+    font-size: 14px;
+    line-height: 1.5; 
+    font-family: Arial, sans-serif; 
+    color: #ffffff; 
+    
+}
+
+
+
+.pelicula button {
+    padding: 10px;
+    margin: 5px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 16px;
+}
+
+.pelicula button:hover {
+    background-color: #0056b3;
+}
